@@ -8,7 +8,7 @@ import validation.ValidationException;
 import static org.junit.Assert.assertNull;
 import static org.junit.Assert.fail;
 
-public class TestAddAssignment {
+public class AddAssignmentTest {
 
     private static TemaXMLRepository temaXMLRepository;
 
