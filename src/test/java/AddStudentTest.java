@@ -2,17 +2,12 @@
 import domain.Student;
 import org.junit.BeforeClass;
 import org.junit.Test;
-import repository.NotaXMLRepository;
 import repository.StudentXMLRepository;
-import repository.TemaXMLRepository;
-import service.Service;
-import validation.NotaValidator;
 import validation.StudentValidator;
-import validation.TemaValidator;
 
 import static org.junit.Assert.*;
 
-public class TestAddStudent {
+public class AddStudentTest {
 
     private static StudentXMLRepository studentXMLRepository;
 
