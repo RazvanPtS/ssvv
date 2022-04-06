@@ -18,7 +18,7 @@ public class AddStudentTest {
     }
 
     @Test
-    public void addStudent_success_test(){
+    public void testAddStudent_success(){
         try{
             Student resp = studentXMLRepository.save(new Student("123", "Student", 933));
             assertNotNull(resp);
