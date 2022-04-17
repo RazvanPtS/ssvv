@@ -1,21 +1,14 @@
 import domain.Nota;
 import domain.Pair;
-import domain.Student;
-import domain.Tema;
 import org.junit.BeforeClass;
 import org.junit.Test;
 import repository.NotaXMLRepository;
-import repository.StudentXMLRepository;
-import repository.TemaXMLRepository;
 import validation.NotaValidator;
-import validation.StudentValidator;
-import validation.TemaValidator;
-import validation.ValidationException;
 
 import static org.junit.Assert.assertNotNull;
 import static org.junit.Assert.fail;
 
-public class TestAddGrade {
+public class AddGradeTest {
 
     private static NotaXMLRepository notaXMLRepository;
 

@@ -14,7 +14,7 @@ import validation.ValidationException;
 
 import static org.junit.Assert.*;
 
-public class TestIntegrated {
+public class IntegratedTest {
 
     private static NotaXMLRepository notaXMLRepository;
     private static StudentXMLRepository studentXMLRepository;
