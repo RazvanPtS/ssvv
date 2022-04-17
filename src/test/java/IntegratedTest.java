@@ -31,7 +31,7 @@ public class IntegratedTest {
     }
 
     @Test
-    public void addStudent_success_test(){
+    public void test_addStudent_success(){
         try{
             assertNull(studentXMLRepository.findOne("123"));
             Student resp = studentXMLRepository.save(new Student("123", "Student", 933));
